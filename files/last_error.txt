@@ -1,0 +1,117 @@
+Persistence of Vision(tm) Ray Tracer Version 3.7.0.unofficial (g++ 6.2.0 @
+ x86_64-pc-linux-gnu)
+This is an unofficial version compiled by:
+ amd64 Build Daemon (binet) <buildd-binet@buildd.debian.org> for Debian
+ <www.debian.org>
+ The POV-Ray Team is not responsible for supporting this version.
+
+POV-Ray is based on DKBTrace 2.12 by David K. Buck & Aaron A. Collins
+Copyright 1991-2013 Persistence of Vision Raytracer Pty. Ltd.
+
+Primary POV-Ray 3.7 Architects/Developers: (Alphabetically)
+  Chris Cason         Thorsten Froehlich  Christoph Lipka   
+
+With Assistance From: (Alphabetically)
+  Nicolas Calimet     Jerome Grimbert     James Holsenback    Christoph Hormann 
+  Nathan Kopp         Juha Nieminen     
+
+Past Contributors: (Alphabetically)
+  Steve Anger         Eric Barish         Dieter Bayer        David K. Buck     
+  Nicolas Calimet     Chris Cason         Aaron A. Collins    Chris Dailey      
+  Steve Demlow        Andreas Dilger      Alexander Enzmann   Dan Farmer        
+  Thorsten Froehlich  Mark Gordon         James Holsenback    Christoph Hormann 
+  Mike Hough          Chris Huff          Kari Kivisalo       Nathan Kopp       
+  Lutz Kretzschmar    Christoph Lipka     Jochen Lippert      Pascal Massimino  
+  Jim McElhiney       Douglas Muir        Juha Nieminen       Ron Parker        
+  Bill Pulver         Eduard Schwan       Wlodzimierz Skiba   Robert Skinner    
+  Yvo Smellenbergh    Zsolt Szalavari     Scott Taylor        Massimo Valentini 
+  Timothy Wegner      Drew Wells          Chris Young       
+
+Other contributors are listed in the documentation.
+
+Support libraries used by POV-Ray:
+  ZLib 1.2.8, Copyright 1995-2012 Jean-loup Gailly and Mark Adler
+  LibPNG 1.6.28, Copyright 1998-2012 Glenn Randers-Pehrson
+  LibJPEG 62, Copyright 1991-2013 Thomas G. Lane, Guido Vollbeding
+  LibTIFF 4.0.8, Copyright 1988-1997 Sam Leffler, 1991-1997 SGI
+  Boost 1.62, http://www.boost.org/
+  OpenEXR, Copyright (c) 2004-2007, Industrial Light & Magic.
+
+Parser Options
+  Input file: text2.pov
+  Remove bounds........On 
+  Split unions.........Off
+  Library paths:
+    /usr/local/share/povray-3.7
+    /usr/local/share/povray-3.7/ini
+    /usr/local/share/povray-3.7/include
+    /usr/share/povray-3.7/include
+  Clock value:    0.000  (Animation off)
+Image Output Options
+  Image resolution.....2 by 1 (rows 1 to 1, columns 1 to 2).
+  Output file........../var/www/html/customv3/files/text2.png, 24 bpp PNG
+  Dithering............Off
+  Graphic display......Off
+  Mosaic preview.......Off
+  Continued trace......Off
+Information Output Options
+  All Streams to console..........On 
+  Debug Stream to console.........On 
+  Fatal Stream to console.........On 
+  Render Stream to console........On 
+  Statistics Stream to console....On 
+  Warning Stream to console.......On 
+==== [Parsing...] ==========================================================
+File '/home/emilien/custom3/src/Scenes/Pov/axes_macro.inc' line 325: Parse
+ Warning: Should have at least 2 objects in csg.
+File '/home/emilien/custom3/src/Scenes/Pov/axes_macro.inc' line 482: Parse
+ Warning: Should have at least 2 objects in csg.
+----------------------------------------------------------------------------
+Parser Statistics
+----------------------------------------------------------------------------
+Finite Objects:            2
+Infinite Objects:          1
+Light Sources:             3
+Total:                     6
+----------------------------------------------------------------------------
+Parser Time
+  Parse Time:       0 hours  0 minutes  0 seconds (0.036 seconds)
+              using 1 thread(s) with 0.035 CPU-seconds total
+  Bounding Time:    0 hours  0 minutes  0 seconds (0.000 seconds)
+              using 1 thread(s) with 0.000 CPU-seconds total
+----------------------------------------------------------------------------
+Render Options
+  Quality:  9
+  Bounding boxes.......On   Bounding threshold: 3
+  Antialiasing.........On  (Method 2, Threshold 0.500, Depth 3, Jitter 1.00,
+ Gamma 2.50)
+==== [Rendering...] ========================================================
+Rendered 2 of 2 pixels (100%)
+----------------------------------------------------------------------------
+Render Statistics
+Image Resolution 2 x 1
+----------------------------------------------------------------------------
+Pixels:                6   Samples:              39   Smpls/Pxl: 6.50
+Rays:                144   Saved:                 0   Max Level: 2/5
+----------------------------------------------------------------------------
+Ray->Shape Intersection          Tests       Succeeded  Percentage
+----------------------------------------------------------------------------
+CSG Union                          452             156     34.51
+Mesh                                16              10     62.50
+Plane                              913             267     29.24
+Clipping Object                    192             156     81.25
+Bounding Box                      1563             662     42.35
+----------------------------------------------------------------------------
+Shadow Ray Tests:               318   Succeeded:                    92
+Shadow Cache Hits:                1
+Reflected Rays:                  39
+Transmitted Rays:                60
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+Render Time:
+  Photon Time:      No photons
+  Radiosity Time:   No radiosity
+  Trace Time:       0 hours  0 minutes  0 seconds (0.003 seconds)
+              using 8 thread(s) with 0.002 CPU-seconds total
+POV-Ray finished
+
